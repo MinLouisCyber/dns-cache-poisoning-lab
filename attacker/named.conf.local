@@ -1,0 +1,7 @@
+zone "lab.test" {
+    type primary;
+    file "/var/cache/bind/lab/db.lab.test";
+    inline-signing yes;
+    dnssec-policy default;
+    allow-query { any; };
+};

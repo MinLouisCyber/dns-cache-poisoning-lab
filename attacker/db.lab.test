@@ -1,0 +1,7 @@
+$TTL 300
+@ IN SOA ns1.lab.test. admin.lab.test. (
+    2026102001 3600 900 604800 300
+)
+  IN NS ns1.lab.test.
+ns1 IN A 192.168.72.129
+bank IN A 192.0.2.10
